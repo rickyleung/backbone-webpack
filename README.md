@@ -16,7 +16,7 @@ Backbone-Webpack Example
 
 访问：http://localhost:3000，Ctrl + C 退出
 
-4）构建生成环境代码
+4）构建生产环境代码
 
     npm run p
 
