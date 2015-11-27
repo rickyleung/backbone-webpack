@@ -1,0 +1,43 @@
+{
+  "name": "backbone-webpack",
+  "version": "0.1.0",
+  "description": "A backbone-webpack example",
+  "keywords": [
+    "backbone",
+    "webpack"
+  ],
+  "maintainers": [
+    {
+      "name": "Ricky",
+      "email": "hyenasa@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickyleung/backbone-webpack.git"
+  },
+  "main": "./app/main.js",
+  "scripts": {
+    "p": "webpack --config webpack.production.config.js -p",
+    "d": "webpack-dev-server --port 3000 --hot --inline --progress --colors --devtool eval"
+  },
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.2.0",
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "hogan.js": "^3.0.2",
+    "html-webpack-plugin": "^1.7.0",
+    "loader-utils": "^0.2.12",
+    "mustache-loader": "^0.3.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "license": "MIT"
+}

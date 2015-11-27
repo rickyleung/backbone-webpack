@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link href="{%=o.htmlWebpackPlugin.files.chunks.app.css%}" rel="stylesheet" type="text/css">
+        <link href="/favicon.ico" rel="shortcut icon">
+    </head>
+    <body>
+        <script src="{%=o.htmlWebpackPlugin.files.chunks.manifest.entry%}"></script>
+        <script src="{%=o.htmlWebpackPlugin.files.chunks.vendor.entry%}"></script>
+        <script src="{%=o.htmlWebpackPlugin.files.chunks.app.entry%}"></script>
+    </body>
+</html>
