@@ -1,8 +1,6 @@
 var path = require('path'),
     webpack = require('webpack'),
-    ExtractTextPlugin = require("extract-text-webpack-plugin"),
-    HtmlWebpackPlugin = require('html-webpack-plugin'),
-    AssetsPlugin = require('assets-webpack-plugin');
+    ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 var config = {
     entry: {
