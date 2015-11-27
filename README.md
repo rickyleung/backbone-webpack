@@ -3,24 +3,27 @@ Backbone-Webpack Example
 
 [![Build Status][travis-image]][travis-url]
 
-1）checkout 分支代码
+Install
+-----
 
-2）安装依赖
-
-    $ cd webapp
     $ npm install
 
-3）进入开发环境
+Development
+-----
 
-    npm run d
+    $ npm run d
 
-访问：http://localhost:3000，Ctrl + C 退出
+Go to http://localhost:3000 to launch your app. Press Ctrl + C to stop server.
 
-4）构建生产环境代码
+Build
+-----
 
-    npm run p
+    $ npm run p
 
-**biz-dp 开发中，暂时不能在编译平台构建，请在提交代码之前构建！**
+Productions:
+- public/: chunks
+- index.jsp: entry
+- webpack-assets.json: hash of chunks
 
 [travis-image]: https://travis-ci.org/rickyleung/backbone-webpack.svg
 [travis-url]: https://travis-ci.org/rickyleung/backbone-webpack
