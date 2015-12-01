@@ -28,7 +28,7 @@ var config = {
             },
             {
                 test: /\.html$/,
-                loader: 'mustache?minify'
+                loader: 'mustache'
             }
         ]
     },
