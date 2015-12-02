@@ -48,6 +48,11 @@ var config = {
                 warnings: false
             }
         }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            Backbone: 'backbone'
+        }),
         new ExtractTextPlugin('[name].[chunkhash].css'),
         new HtmlWebpackPlugin({
             filename: '../index.jsp',

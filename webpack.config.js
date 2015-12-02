@@ -41,6 +41,11 @@ var config = {
             filename: 'manifest.js',
             chunks: ['vendor']
         }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            Backbone: 'backbone'
+        }),
         new ExtractTextPlugin('[name].css')
     ]
 };

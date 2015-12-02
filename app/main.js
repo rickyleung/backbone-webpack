@@ -1,8 +1,5 @@
 require('../asset/css/app.css');
 
-var $ = require('jquery');
-var Backbone = require('backbone');
-
 var Router = require('./router/Router');
 var Util = require('./lib/Util');
 var tpl = require('../asset/tpl/main.html');
