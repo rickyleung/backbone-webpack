@@ -12,6 +12,14 @@ $('body').prepend(tpl({
     author: 'Ricky'
 }));
 
+$('button').bizButton().click(function() {
+    bizui.Dialog.alert({
+        title: 'Wanning',
+        content: 'Earth is dangerous!',
+        ok: 'Got it'
+    });
+});
+
 window.S = {};
 
 S.router = new Router();

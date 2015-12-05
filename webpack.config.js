@@ -5,7 +5,7 @@ var path = require('path'),
 var config = {
     entry: {
         app: path.join(__dirname, 'app/main'),
-        vendor: ['jquery', 'backbone']
+        vendor: ['jquery', 'backbone', 'biz-ui']
     },
     output: {
         path: path.join(__dirname, 'dist'),
@@ -44,6 +44,7 @@ var config = {
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
+            bizui: 'biz-ui',
             Backbone: 'backbone'
         }),
         new ExtractTextPlugin('[name].css')
