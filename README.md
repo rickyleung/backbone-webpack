@@ -13,9 +13,9 @@ Development
 
     $ npm run d
 
-Go to http://localhost:3000 to launch your app. Press Ctrl + C to stop server.
+Go to http://localhost:3000 to launch your app.
 
-Build
+Public
 -----
 
     $ npm run p
