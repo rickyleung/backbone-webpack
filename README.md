@@ -1,4 +1,4 @@
-Backbone-Webpack Example
+A backbone-webpack example
 ===============
 
 [![Build Status][travis-image]][travis-url]
