@@ -12,12 +12,12 @@ $('body').prepend(tpl({
     author: 'Ricky'
 }));
 
-$('button').bizButton().click(function() {
-    bizui.Dialog.alert({
-        title: 'Wanning',
-        content: 'Earth is dangerous!',
-        ok: 'Got it'
-    });
+$('button').bizButton();
+
+bizui.Tooltip({
+    element: 'button',
+    theme: 'orange',
+    action: 'hover'
 });
 
 window.S = {};

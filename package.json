@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "backbone": "^1.2.3",
-    "biz-ui": "^1.1.6",
+    "biz-ui": "^1.4.4",
     "jquery": "^2.1.4"
   },
   "devDependencies": {
