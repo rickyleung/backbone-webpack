@@ -8,17 +8,8 @@ $('body').prepend(tpl({
     list: [
         {url: '', name: 'Home'},
         {url: 'stat/', name: 'Stat'}
-    ],
-    author: 'Ricky'
+    ]
 }));
-
-$('button').bizButton();
-
-bizui.Tooltip({
-    element: 'button',
-    theme: 'orange',
-    action: 'hover'
-});
 
 window.S = {};
 

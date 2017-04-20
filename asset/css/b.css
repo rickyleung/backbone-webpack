@@ -1,11 +1,11 @@
+.wrapper {
+    padding: 20px;
+}
+h1 {
+    margin: 0 0 20px 0;
+}
 a {
     color: #06c;
     background: url(../img/link.png) left center no-repeat;
     padding-left: 20px;
-}
-
-p {
-    background: url(../img/head.gif) left center no-repeat;
-    padding-left: 30px;
-    line-height: 24px;
 }
